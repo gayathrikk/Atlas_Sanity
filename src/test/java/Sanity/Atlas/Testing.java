@@ -336,6 +336,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		{
 			clickElementByXpath("(//span[text()='883'])[1]", "section ");
 			clickElementByXpath("//a[@title='Atlas Editor']", "Atlas Editor");
+			Thread.sleep(4000);
 			clickElementByXpath("//a[@title='Edit Menu']", "Edit menu");
 			clickElementByXpath("(//nb-icon[@pack='nebular-essentials'])[2]", "Contributor option"); 
 			clickElementByXpath("(//input[@type='radio'])[2]", "Contributor"); 
